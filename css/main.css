@@ -97,9 +97,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html{
 
+}
 
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50vh
+    overflow: hidden;
+}
 
+.bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+header{
+    left: 0;
+    padding-top: 40px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-inner{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1520px;
+    width: 90%;
+}
+
+.date{
+    display: block;
+    line-height: 1.2;
+    max-width: 240px;
+    text-transform: uppercase;
+    font-family: "Styrene B Web",sans-serif;
+    font-size: 24px;
+}
 
 
 
